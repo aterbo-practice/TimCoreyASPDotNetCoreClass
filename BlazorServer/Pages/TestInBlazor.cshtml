@@ -1,0 +1,12 @@
+@page
+@model BlazorServer.Pages.TestInBlazorModel
+@{
+    ViewData["Title"] = "TestInBlazor";
+}
+
+<h1>TestInBlazor</h1>
+<p>This is a test in Blazor Server.</p>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
